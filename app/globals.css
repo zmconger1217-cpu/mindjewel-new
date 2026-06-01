@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-cream: #faf6f0;
+  --color-cream-dark: #f0ebe3;
+  --color-brown: #2c2420;
+  --color-brown-light: #5a4a42;
+  --color-brown-lighter: #8a7a72;
+  --color-gold: #d4a373;
+  --color-gold-light: #e8c9a0;
+  --color-gold-dark: #b8864a;
+  --font-sans: "Outfit", "Geist", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply bg-cream text-brown font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-brown;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-brown text-cream text-sm font-medium tracking-widest uppercase transition-all duration-300 hover:bg-gold hover:text-brown;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-3 border border-brown text-brown text-sm font-medium tracking-widest uppercase transition-all duration-300 hover:bg-brown hover:text-cream;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-gold text-brown text-sm font-medium tracking-widest uppercase transition-all duration-300 hover:bg-gold-dark hover:text-cream;
+  }
 }

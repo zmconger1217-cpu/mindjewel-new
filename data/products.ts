@@ -1,0 +1,1031 @@
+import type { Product } from "@/lib/types";
+
+export const products: Product[] = [
+  {
+    "id": "ar-004",
+    "slug": "daphne-bracelet",
+    "title": "Daphne Bracelet",
+    "subtitle": "Silver Laurel Cuff",
+    "category": "bracelets",
+    "goddess": "artemis",
+    "price": 188,
+    "material": "Sterling Silver",
+    "color": "Silver",
+    "description": "A laurel-wreath cuff bracelet sculpted in sterling silver. Each leaf is individually shaped for an artisanal, organic feel.",
+    "details": [
+      "Sterling silver cuff",
+      "Laurel leaf motif around entire cuff",
+      "Open back for adjustable fit",
+      "Polished with dimensional highlights",
+      "Hand-finished by silversmiths"
+    ],
+    "images": [
+      "/assets/images/trail-hoop-earrings.webp",
+      "/assets/images/trail-hoop-earrings-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-02-02T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-004",
+    "slug": "sera-bracelet",
+    "title": "Sera Bracelet",
+    "subtitle": "Rose Gold Beaded Chain",
+    "category": "bracelets",
+    "goddess": "venus",
+    "price": 148,
+    "material": "Rose Gold Vermeil",
+    "color": "Blush Pink",
+    "description": "A string of tiny rose gold beads interspersed with delicate heart-shaped charms. Layering-friendly and endlessly romantic.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "Beaded chain with heart charms",
+      "7 inches long with spring ring clasp",
+      "Stackable with other bracelets",
+      "Anti-tarnish storage pouch included"
+    ],
+    "images": [
+      "/assets/images/amour-bangle.webp",
+      "/assets/images/amour-bangle-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-28T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-008",
+    "slug": "siren-bracelet",
+    "title": "Siren Bracelet",
+    "subtitle": "Gold & Black Pearl",
+    "category": "bracelets",
+    "goddess": "persephone",
+    "price": 258,
+    "material": "Mixed Metal + Cultured Pearl",
+    "stone": "Black Cultured Pearl",
+    "color": "Black & Gold",
+    "description": "A single black cultured pearl suspended from a mixed-metal chain. An echo of Persephone's pomegranate - bittersweet and beautiful.",
+    "details": [
+      "18K gold vermeil chain + black rhodium accents",
+      "10mm black cultured freshwater pearl",
+      "7-inch chain with lobster clasp",
+      "Pearl hangs as a graceful dangle",
+      "Each pearl is naturally unique in shade"
+    ],
+    "images": [
+      "/assets/images/obsidian-necklace.webp",
+      "/assets/images/obsidian-necklace-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-01-05T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-004",
+    "slug": "terra-bracelet",
+    "title": "Terra Bracelet",
+    "subtitle": "Yellow Gold Woven Chain",
+    "category": "bracelets",
+    "goddess": "hestia",
+    "price": 208,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "A woven chain bracelet reminiscent of ancient Roman textile patterns. Substantial, warm, and timeless - the perfect everyday companion.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "Woven link pattern (4mm width)",
+      "7.5 inches with lobster clasp",
+      "Textured weave catches the light beautifully",
+      "Hypoallergenic and comfortable"
+    ],
+    "images": [
+      "/assets/images/golden-hour-pendant.webp",
+      "/assets/images/golden-hour-pendant-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-18T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-004",
+    "slug": "thea-bracelet",
+    "title": "Thea Bracelet",
+    "subtitle": "White Gold Curb Chain",
+    "category": "bracelets",
+    "goddess": "athena",
+    "price": 198,
+    "material": "Rhodium-Plated Sterling Silver",
+    "color": "Silver",
+    "description": "A sleek curb chain bracelet with a clean, architectural silhouette. Strong, refined, and effortlessly sophisticated.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Curb chain links (3mm width)",
+      "7.5 inches with lobster clasp",
+      "Secure double-lock clasp",
+      "Engravable tag included"
+    ],
+    "images": [
+      "/assets/images/horizon-cuff-bracelet.webp",
+      "/assets/images/horizon-cuff-bracelet-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-20T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-004",
+    "slug": "umbra-bracelet",
+    "title": "Umbra Bracelet",
+    "subtitle": "Black & Silver Cuff",
+    "category": "bracelets",
+    "goddess": "persephone",
+    "price": 218,
+    "material": "Black Rhodium-Plated Silver",
+    "color": "Black",
+    "description": "A sculptural cuff with darkened silver and subtle organic ridges, evoking the shadows of the underworld and the roots of new beginnings.",
+    "details": [
+      "Black rhodium-plated sterling silver",
+      "Open cuff, adjustable fit",
+      "Organic ridge detailing on surface",
+      "Satin matte finish",
+      "Hand-sculpted by artisans"
+    ],
+    "images": [
+      "/assets/images/metamorphosis-pendant.webp",
+      "/assets/images/metamorphosis-pendant-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-01-28T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-008",
+    "slug": "venus-cuff",
+    "title": "Venus Cuff",
+    "subtitle": "Rose Gold Open Cuff",
+    "category": "bracelets",
+    "goddess": "venus",
+    "price": 178,
+    "material": "Rose Gold Vermeil",
+    "color": "Rose",
+    "description": "An open cuff with a sculpted wave motif that hugs the wrist. Inspired by the goddess of love, it channels effortless romance.",
+    "details": [
+      "14K rose gold vermeil over brass base",
+      "Open cuff design, one size fits most",
+      "Polished exterior with soft brushed interior",
+      "Slip-on style, no clasp needed",
+      "Hand-finished by artisans"
+    ],
+    "images": [
+      "/assets/images/siren-tennis-bracelet.webp",
+      "/assets/images/siren-tennis-bracelet-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-03-15T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-007",
+    "slug": "vita-bracelet",
+    "title": "Vita Bracelet",
+    "subtitle": "Yellow Gold Charm Bangle",
+    "category": "bracelets",
+    "goddess": "hestia",
+    "price": 188,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "A slender gold bangle with a single tiny house charm. Celebrate the sanctuary you've built, wherever you are.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "Hinged bangle (60mm inner diameter)",
+      "House charm dangles freely (8mm)",
+      "Hidden clasp for seamless look",
+      "Hand-polished finish"
+    ],
+    "images": [
+      "/assets/images/ember-ring.webp",
+      "/assets/images/ember-ring-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-28T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-003",
+    "slug": "casa-earrings",
+    "title": "Casa Earrings",
+    "subtitle": "Yellow Gold Hoops",
+    "category": "earrings",
+    "goddess": "hestia",
+    "price": 168,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "Classic medium hoop earrings in warm yellow gold. A foundation piece that anchors any collection - like home itself.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "1.2-inch diameter hoops",
+      "Hinged snap-lock closure",
+      "Sold as a pair",
+      "High-polish mirror finish"
+    ],
+    "images": [
+      "/assets/images/ember-stud-earrings.webp",
+      "/assets/images/ember-stud-earrings-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2025-12-20T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-007",
+    "slug": "cora-earrings",
+    "title": "Cora Earrings",
+    "subtitle": "Rose Gold Teardrop",
+    "category": "earrings",
+    "goddess": "venus",
+    "price": 158,
+    "material": "Rose Gold Vermeil",
+    "color": "Rose",
+    "description": "Elegant teardrop-shaped earrings in polished rose gold. Their gentle swing draws the eye with every movement.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "Teardrop silhouette (18mm length)",
+      "French wire hooks",
+      "Lightweight - perfect for all-day wear",
+      "Hand-polished mirror finish"
+    ],
+    "images": [
+      "/assets/images/cherish-drop-earrings.webp",
+      "/assets/images/cherish-drop-earrings-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-01-22T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-003",
+    "slug": "flora-earrings",
+    "title": "Flora Earrings",
+    "subtitle": "Rose Gold Floral Studs",
+    "category": "earrings",
+    "goddess": "venus",
+    "price": 128,
+    "material": "Rose Gold Vermeil",
+    "color": "Rose",
+    "description": "Tiny blooming flower studs crafted in blush rose gold. Each petal catches the light for a soft, romantic sparkle.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "Floral motif (8mm diameter each)",
+      "Push-back closures",
+      "Sold as a pair",
+      "Comes with a polishing cloth"
+    ],
+    "images": [
+      "/assets/images/blossom-hoop-earrings.webp",
+      "/assets/images/blossom-hoop-earrings-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-03-01T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-007",
+    "slug": "ivy-earrings",
+    "title": "Ivy Earrings",
+    "subtitle": "Silver Vine Climbers",
+    "category": "earrings",
+    "goddess": "artemis",
+    "price": 128,
+    "material": "Sterling Silver",
+    "color": "Green",
+    "description": "Delicate vine-shaped ear climbers that wind along the ear. Like ivy growing wild, they are untamed and graceful.",
+    "details": [
+      "Sterling silver",
+      "Ear climber design (20mm length)",
+      "Post-back with climbing wire",
+      "Lightweight ergonomic fit",
+      "Oxidized finish for depth"
+    ],
+    "images": [
+      "/assets/images/rivulet-necklace.webp",
+      "/assets/images/rivulet-necklace-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-04-01T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-003",
+    "slug": "moon-earrings",
+    "title": "Moon Earrings",
+    "subtitle": "Silver Crescent Drops",
+    "category": "earrings",
+    "goddess": "artemis",
+    "price": 148,
+    "material": "Sterling Silver",
+    "color": "Silver",
+    "description": "Crescent moon drops with a hammered texture that glows like moonlight on water. A tribute to Artemis, goddess of the hunt and the moon.",
+    "details": [
+      "Sterling silver",
+      "Crescent moon shape (15mm wide each)",
+      "Hammered texture finish",
+      "French wire hooks",
+      "Sold as a pair"
+    ],
+    "images": [
+      "/assets/images/moon-phase-pendant.webp",
+      "/assets/images/moon-phase-pendant-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-03-18T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-003",
+    "slug": "mystic-earrings",
+    "title": "Mystic Earrings",
+    "subtitle": "Black Rhodium & Opal",
+    "category": "earrings",
+    "goddess": "persephone",
+    "price": 178,
+    "material": "Black Rhodium-Plated Silver",
+    "stone": "Opal",
+    "color": "Iridescent",
+    "description": "Blackened silver studs cradle iridescent opals that shift from green to blue to violet. A tiny portal to another realm.",
+    "details": [
+      "Black rhodium-plated sterling silver",
+      "8mm round opal inlay each",
+      "Screw-back closures",
+      "Sold as a pair",
+      "Each opal displays unique color play"
+    ],
+    "images": [
+      "/assets/images/mystic-drop-earrings.webp",
+      "/assets/images/mystic-drop-earrings-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-16T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-007",
+    "slug": "raven-earrings",
+    "title": "Raven Earrings",
+    "subtitle": "Black Rhodium Teardrops",
+    "category": "earrings",
+    "goddess": "persephone",
+    "price": 138,
+    "material": "Black Rhodium-Plated Silver",
+    "color": "Black",
+    "description": "Dark teardrop earrings with a matte-black finish. Sleek, mysterious, and subtly gothic - for those who embrace all sides of themselves.",
+    "details": [
+      "Black rhodium-plated sterling silver",
+      "Teardrop silhouette (16mm length)",
+      "Post-back with drop wire",
+      "Sold as a pair",
+      "Matte black finish with subtle sheen"
+    ],
+    "images": [
+      "/assets/images/persephone-ring.webp",
+      "/assets/images/persephone-ring-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-22T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-007",
+    "slug": "sage-earrings",
+    "title": "Sage Earrings",
+    "subtitle": "White Gold Hoops",
+    "category": "earrings",
+    "goddess": "athena",
+    "price": 188,
+    "material": "Rhodium-Plated Sterling Silver",
+    "color": "Silver",
+    "description": "Clean, thin hoop earrings with a brilliant-polish finish. Light enough for everyday, striking enough for evening.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "1-inch diameter hoops",
+      "Hinged snap-lock closure",
+      "Sold as a pair",
+      "Satin-lined storage pouch included"
+    ],
+    "images": [
+      "/assets/images/athena-pearl-necklace.webp",
+      "/assets/images/athena-pearl-necklace-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-18T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-003",
+    "slug": "stella-earrings",
+    "title": "Stella Earrings",
+    "subtitle": "White Gold Star Studs",
+    "category": "earrings",
+    "goddess": "athena",
+    "price": 138,
+    "material": "Rhodium-Plated Sterling Silver",
+    "color": "Silver",
+    "description": "Tiny five-point star studs with a high-polish finish. A subtle celestial accent for the modern intellectual.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Star shape (7mm diameter each)",
+      "Screw-back closures for security",
+      "Sold as a pair",
+      "Mirror-polished finish"
+    ],
+    "images": [
+      "/assets/images/clarity-chain-necklace.webp",
+      "/assets/images/clarity-chain-necklace-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-14T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-006",
+    "slug": "bella-necklace",
+    "title": "Bella Necklace",
+    "subtitle": "Rose Gold Initial Pendant",
+    "category": "necklaces",
+    "goddess": "venus",
+    "price": 118,
+    "material": "Rose Gold Vermeil",
+    "color": "Rose",
+    "description": "A dainty initial pendant on a fine trace chain. Personalize it with your own letter for a meaningful everyday piece.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "Initial charm (10mm height)",
+      "16-inch chain with 2-inch extender",
+      "Customizable letter (A-Z)",
+      "Lobster clasp closure"
+    ],
+    "images": [
+      "/assets/images/sweetheart-locket-necklace.webp",
+      "/assets/images/sweetheart-locket-necklace-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2025-12-05T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-002",
+    "slug": "clara-necklace",
+    "title": "Clara Necklace",
+    "subtitle": "White Gold Bar Pendant",
+    "category": "necklaces",
+    "goddess": "athena",
+    "price": 148,
+    "material": "Rhodium-Plated Sterling Silver",
+    "color": "Silver",
+    "description": "A minimalist gold bar pendant suspended from a fine chain. Clean lines and understated elegance define this Athena-inspired piece.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Bar pendant (25mm x 3mm)",
+      "16-inch chain with 2-inch extender",
+      "Lobster clasp",
+      "Engravable surface on reverse"
+    ],
+    "images": [
+      "/assets/images/insight-huggie-earrings.webp",
+      "/assets/images/insight-huggie-earrings-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-03-10T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-006",
+    "slug": "eclipse-necklace",
+    "title": "Eclipse Necklace",
+    "subtitle": "Mixed Metal Sun & Moon",
+    "category": "necklaces",
+    "goddess": "persephone",
+    "price": 248,
+    "material": "Mixed Metal (Gold + Black Rhodium)",
+    "color": "Gold & Black",
+    "description": "A sun-and-moon pendant where gold and black rhodium meet. Symbolizing the eternal cycle of descent and return.",
+    "details": [
+      "18K gold vermeil + black rhodium-plated silver",
+      "Sun and moon motif (22mm diameter)",
+      "18-inch chain with lobster clasp",
+      "Two-tone contrast finish",
+      "Comes with meaningful-card explaining symbolism"
+    ],
+    "images": [
+      "/assets/images/shadow-bangle.webp",
+      "/assets/images/shadow-bangle-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER",
+      "NEW"
+    ],
+    "createdAt": "2026-04-15T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-006",
+    "slug": "iris-necklace",
+    "title": "Iris Necklace",
+    "subtitle": "White Gold Layered Chain",
+    "category": "necklaces",
+    "goddess": "athena",
+    "price": 168,
+    "material": "Rhodium-Plated Sterling Silver",
+    "color": "Silver",
+    "description": "Two fine chains of different lengths with a tiny diamond-like charm on the shorter strand. Designed for effortless layering.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Two-chain layered design (14 + 16 inches)",
+      "CZ charm on upper chain",
+      "Lobster clasps on both chains",
+      "Adjustable length via extender"
+    ],
+    "images": [
+      "/assets/images/anchor-pendant-necklace.webp",
+      "/assets/images/anchor-pendant-necklace-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-25T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-002",
+    "slug": "luna-necklace",
+    "title": "Luna Necklace",
+    "subtitle": "Rose Gold Crescent",
+    "category": "necklaces",
+    "goddess": "venus",
+    "price": 198,
+    "material": "Rose Gold Vermeil",
+    "color": "Blush Pink",
+    "description": "A delicate crescent moon pendant on a fine rose gold chain. Whimsical yet refined, Luna is a daily reminder of love's gentle glow.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "Crescent moon charm (12mm width)",
+      "16-inch chain with 2-inch extender",
+      "Lobster clasp closure",
+      "Tarnish-resistant coating"
+    ],
+    "images": [
+      "/assets/images/cascade-pearl-necklace.webp",
+      "/assets/images/cascade-pearl-necklace-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER",
+      "NEW"
+    ],
+    "createdAt": "2026-02-20T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-002",
+    "slug": "noor-necklace",
+    "title": "Noor Necklace",
+    "subtitle": "Yellow Gold Sunburst",
+    "category": "necklaces",
+    "goddess": "hestia",
+    "price": 218,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "A sunburst medallion pendant in gleaming gold. Noor means 'light' - a beacon of warmth to wear close to the heart.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "Sunburst medallion (18mm diameter)",
+      "Engraved ray pattern on face",
+      "18-inch chain with lobster clasp",
+      "Includes gold polishing cloth"
+    ],
+    "images": [
+      "/assets/images/hestia-comfort-band.webp",
+      "/assets/images/hestia-comfort-band-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-02-12T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-002",
+    "slug": "nyx-necklace",
+    "title": "Nyx Necklace",
+    "subtitle": "Black & Rose Gold Pendant",
+    "category": "necklaces",
+    "goddess": "persephone",
+    "price": 228,
+    "material": "Mixed Metal (Gold + Black Rhodium)",
+    "color": "Black & Gold",
+    "description": "A geometric pendant that fuses black rhodium with rose gold - light and dark in perfect balance. Named for the goddess of night.",
+    "details": [
+      "Rose gold vermeil + black rhodium-plated silver",
+      "Geometric half-moon pendant (20mm)",
+      "18-inch chain with lobster clasp",
+      "Mixed-metal contrast design",
+      "Engravable reverse side"
+    ],
+    "images": [
+      "/assets/images/persephone-signet-ring.webp",
+      "/assets/images/persephone-signet-ring-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER",
+      "NEW"
+    ],
+    "createdAt": "2026-03-08T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-002",
+    "slug": "rhea-necklace",
+    "title": "Rhea Necklace",
+    "subtitle": "Silver Leaf Pendant",
+    "category": "necklaces",
+    "goddess": "artemis",
+    "price": 168,
+    "material": "Sterling Silver",
+    "color": "Silver",
+    "description": "A hand-sculpted leaf pendant that captures the texture and curve of nature. Inspired by the forests where Artemis roams.",
+    "details": [
+      "Sterling silver pendant and chain",
+      "Leaf-shaped pendant (22mm length)",
+      "Intricate vein detailing on leaf surface",
+      "18-inch chain with spring ring clasp",
+      "Natural matte finish"
+    ],
+    "images": [
+      "/assets/images/wildflower-ring.webp",
+      "/assets/images/wildflower-ring-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-08T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-006",
+    "slug": "selene-necklace",
+    "title": "Selene Necklace",
+    "subtitle": "Silver & Moonstone",
+    "category": "necklaces",
+    "goddess": "artemis",
+    "price": 198,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "color": "White-Iridescent",
+    "description": "A luminous moonstone cabochon framed in a silver bezel. The stone's adularescent glow shifts with every angle - like the moon itself.",
+    "details": [
+      "Sterling silver bezel setting",
+      "12mm x 10mm moonstone cabochon",
+      "18-inch sterling silver chain",
+      "Lobster clasp closure",
+      "Each moonstone exhibits unique flashes"
+    ],
+    "images": [
+      "/assets/images/artemis-drop-earrings.webp",
+      "/assets/images/artemis-drop-earrings-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER",
+      "NEW"
+    ],
+    "createdAt": "2026-03-22T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-006",
+    "slug": "solace-necklace",
+    "title": "Solace Necklace",
+    "subtitle": "Yellow Gold Locket",
+    "category": "necklaces",
+    "goddess": "hestia",
+    "price": 238,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "A heart-shaped locket that opens to hold a tiny photo or keepsake. A tangible reminder of what (and who) makes a house a home.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "Heart-shaped locket (15mm)",
+      "Opens with a side hinge",
+      "18-inch chain with lobster clasp",
+      "Fits one small photo or keepsake"
+    ],
+    "images": [
+      "/assets/images/hearth-cuff-bracelet.webp",
+      "/assets/images/hearth-cuff-bracelet-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-04-05T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-005",
+    "slug": "amor-ring",
+    "title": "Amor Ring",
+    "subtitle": "Rose Gold Interlocking Bands",
+    "category": "rings",
+    "goddess": "venus",
+    "price": 198,
+    "material": "Rose Gold Vermeil",
+    "color": "Rose",
+    "description": "Two interlocking bands - one rose gold, one rhodium-plated - symbolizing intertwined souls. A modern statement of eternal love.",
+    "details": [
+      "14K rose gold vermeil + rhodium-plated sterling silver",
+      "Twin-band interlocking design",
+      "Band width 2.5mm each",
+      "US sizes 5-9",
+      "Engravable inner band"
+    ],
+    "images": [
+      "/assets/images/petal-stacker-ring-set.webp",
+      "/assets/images/petal-stacker-ring-set-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-02-10T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-005",
+    "slug": "athena-band-ring",
+    "title": "Athena Band",
+    "subtitle": "White Gold Eternity Band",
+    "category": "rings",
+    "goddess": "athena",
+    "price": 228,
+    "material": "Rhodium-Plated Sterling Silver",
+    "stone": "Cubic Zirconia",
+    "color": "Silver",
+    "description": "A full eternity band paved with clear stones around the entire circumference. A minimalist statement of everlasting wisdom.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Full eternity cubic zirconia (2mm each)",
+      "Band width 2.8mm",
+      "US sizes 5-9",
+      "Comfort-fit interior"
+    ],
+    "images": [
+      "/assets/images/zen-stack-earrings.webp",
+      "/assets/images/zen-stack-earrings-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-03-05T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-001",
+    "slug": "ember-ring",
+    "title": "Ember Ring",
+    "subtitle": "Yellow Gold & Citrine",
+    "category": "rings",
+    "goddess": "hestia",
+    "price": 178,
+    "material": "Gold Vermeil",
+    "stone": "Citrine",
+    "color": "Amber",
+    "description": "A warm citrine cabochon set in a polished gold band. Like the hearth fire of Hestia, it radiates warmth and comfort.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "8mm round citrine cabochon",
+      "Bezel set for a smooth profile",
+      "US sizes 5-8",
+      "Polished finish"
+    ],
+    "images": [
+      "/assets/images/artemis-bangle.webp",
+      "/assets/images/artemis-bangle-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-01-25T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-005",
+    "slug": "fawn-ring",
+    "title": "Fawn Ring",
+    "subtitle": "Silver & Blue Topaz",
+    "category": "rings",
+    "goddess": "artemis",
+    "price": 158,
+    "material": "Sterling Silver",
+    "stone": "Blue Topaz",
+    "color": "Blue",
+    "description": "A sky-blue topaz set in a delicate silver band reminiscent of a fawn's slender frame. Innocent, wild, and full of wonder.",
+    "details": [
+      "Sterling silver band",
+      "6mm round blue topaz",
+      "Prong setting with micro detail",
+      "US sizes 5-8",
+      "Natural blue topaz - each stone is unique"
+    ],
+    "images": [
+      "/assets/images/leaf-cuff-bracelet.webp",
+      "/assets/images/leaf-cuff-bracelet-worn.webp"
+    ],
+    "tags": [],
+    "createdAt": "2026-01-30T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "h-005",
+    "slug": "hestia-band-ring",
+    "title": "Hestia Band",
+    "subtitle": "Yellow Gold Stacking Ring",
+    "category": "rings",
+    "goddess": "hestia",
+    "price": 98,
+    "material": "Gold Vermeil",
+    "color": "Gold",
+    "description": "A simple yet radiant stacking ring that shines on its own or paired with others. Affordable warmth for every finger.",
+    "details": [
+      "18K yellow gold vermeil over sterling silver",
+      "Classic dome band (2mm width)",
+      "US sizes 5-9",
+      "Comfort-fit interior",
+      "Easy to stack with other rings"
+    ],
+    "images": [
+      "/assets/images/hestia-hoop-earrings.webp",
+      "/assets/images/hestia-hoop-earrings-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER",
+      "NEW"
+    ],
+    "createdAt": "2026-03-28T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-005",
+    "slug": "kore-ring",
+    "title": "Kore Ring",
+    "subtitle": "Silver & Garnet",
+    "category": "rings",
+    "goddess": "persephone",
+    "price": 148,
+    "material": "Sterling Silver with Gold Accent",
+    "stone": "Garnet",
+    "color": "Deep Red",
+    "description": "A deep red garnet in a silver setting with a whisper of gold on the rim. A reminder that beauty blooms even in the dark.",
+    "details": [
+      "Sterling silver with 18K gold vermeil rim",
+      "6mm round garnet",
+      "Bezel set with gold edge accent",
+      "US sizes 5-8",
+      "Rich oxblood color"
+    ],
+    "images": [
+      "/assets/images/noir-hoop-earrings.webp",
+      "/assets/images/noir-hoop-earrings-worn.webp"
+    ],
+    "tags": [
+      "NEW"
+    ],
+    "createdAt": "2026-04-10T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "p-001",
+    "slug": "noir-ring",
+    "title": "Noir Ring",
+    "subtitle": "Black Rhodium & Amethyst",
+    "category": "rings",
+    "goddess": "persephone",
+    "price": 198,
+    "material": "Black Rhodium-Plated Silver",
+    "stone": "Amethyst",
+    "color": "Deep Purple",
+    "description": "A deep amethyst stone set in black rhodium-plated silver. Dark, dramatic, and transformative - like Persephone's journey between worlds.",
+    "details": [
+      "Black rhodium-plated sterling silver",
+      "10mm x 8mm oval amethyst",
+      "Four-prong claw setting",
+      "US sizes 5-8",
+      "High-contrast black and purple palette"
+    ],
+    "images": [
+      "/assets/images/hestia-necklace.webp",
+      "/assets/images/hestia-necklace-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-08T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "a-001",
+    "slug": "pura-ring",
+    "title": "Pura Ring",
+    "subtitle": "White Gold & Diamond",
+    "category": "rings",
+    "goddess": "athena",
+    "price": 258,
+    "material": "Rhodium-Plated Sterling Silver",
+    "stone": "Diamond",
+    "color": "White",
+    "description": "A single brilliant-cut diamond set in a sleek rhodium-plated band. Pure, sharp, and utterly timeless - just like the wisdom it represents.",
+    "details": [
+      "Rhodium-plated sterling silver",
+      "Round brilliant cubic zirconia (5mm)",
+      "Slim band width 1.5mm",
+      "US sizes 5-8",
+      "Prong setting for maximum brilliance"
+    ],
+    "images": [
+      "/assets/images/athena-minimal-band.webp",
+      "/assets/images/athena-minimal-band-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-10T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "v-001",
+    "slug": "sol-ring",
+    "title": "Sol Ring",
+    "subtitle": "Rose Gold & Pink Tourmaline",
+    "category": "rings",
+    "goddess": "venus",
+    "price": 168,
+    "material": "Rose Gold Vermeil",
+    "stone": "Pink Tourmaline",
+    "color": "Blush Pink",
+    "description": "A radiant solitaire ring featuring a blush pink tourmaline set in warm rose gold. Designed to capture the light and the heart, it is the ultimate token of romance.",
+    "details": [
+      "14K rose gold vermeil over sterling silver",
+      "6mm round pink tourmaline center stone",
+      "Micro-pave cubic zirconia accent halo",
+      "Adjustable band (US sizes 5-8)",
+      "Presented in a velvet gift box",
+      "Hypoallergenic and nickel-free"
+    ],
+    "images": [
+      "/assets/images/venus-solitaire-ring.webp",
+      "/assets/images/venus-solitaire-ring-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-15T00:00:00Z",
+    "inStock": true
+  },
+  {
+    "id": "ar-001",
+    "slug": "willow-ring",
+    "title": "Willow Ring",
+    "subtitle": "Sterling Silver & Peridot",
+    "category": "rings",
+    "goddess": "artemis",
+    "price": 138,
+    "material": "Sterling Silver",
+    "stone": "Peridot",
+    "color": "Green",
+    "description": "A vivid peridot cabochon nestled in an organic vine-inspired silver band. Earthy, wild, and unmistakably free-spirited.",
+    "details": [
+      "Sterling silver band",
+      "8mm x 6mm oval peridot cabochon",
+      "Vine-detailed band with oxidized accents",
+      "US sizes 5-8",
+      "Handcrafted by artisans"
+    ],
+    "images": [
+      "/assets/images/athena-bangle.webp",
+      "/assets/images/athena-bangle-worn.webp"
+    ],
+    "tags": [
+      "BESTSELLER"
+    ],
+    "createdAt": "2026-01-12T00:00:00Z",
+    "inStock": true
+  }
+];
