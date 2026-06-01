@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+  <rect width="600" height="750" fill="#f8f5f0"/>
+  <g transform="translate(300, 375)" opacity="0.3">
+    <circle cx="0" cy="-10" r="30" fill="none" stroke="#d4a373" stroke-width="1"/>
+    <circle cx="0" cy="-10" r="20" fill="none" stroke="#d4a373" stroke-width="1"/>
+    <circle cx="0" cy="-10" r="10" fill="none" stroke="#d4a373" stroke-width="0.5"/>
+    <line x1="0" y1="-40" x2="0" y2="60" stroke="#d4a373" stroke-width="0.5"/>
+    <line x1="-35" y1="-10" x2="35" y2="-10" stroke="#d4a373" stroke-width="0.5"/>
+  </g>
+  <text x="300" y="410" font-family="Georgia, serif" font-size="14" fill="#d4a373" text-anchor="middle" letter-spacing="3">MINDJEWEL</text>
+</svg>
